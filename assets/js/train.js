@@ -124,7 +124,7 @@ if (!moment(dateEntered,'HH:mm').isValid()) {
   console.log('Invalid Time');
 }
 
-
+$('#simple-example-table').stacktable();
   // Add each train's data into the table
   $("#train-table > tbody").append("<tr><td>" + trainName + "</td><td>" + destination + "</td><td>" +
   frequencyTime + "</td><td>" + nextArrival + "</td><td>" + MinutesTillTrain + "</td></tr>");

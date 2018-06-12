@@ -3,10 +3,10 @@ body {
 	background: url('../images/dark-clouds-daylight-grass-552501.jpg') no-repeat center center fixed;
   	background-size: cover;
   	height: 100%;
-  	background-color: green;
-  	background-blend-mode: screen;
+
 }
 
+.jumbotron {background-color: none !important; color:white;}
 
 button {
     border-radius: 4px;
@@ -20,13 +20,11 @@ img {
   width: 200px;
    }
 
-form {
-    background-color: #474747;
-    color: white;
-    padding: 10px; 
-}
+ .table th { border-top: none!important; }
 
+.card-header { background-color: rgba(0,0,0,.1) !important; }
 
+h1 { color:#333; }
 h5 { font-size: 14px; }
 
 .rating { 
